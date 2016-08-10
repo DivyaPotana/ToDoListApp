@@ -9,8 +9,8 @@
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:oracle:thin:@//10.180.84.35:1521/NGPDEV" />
-			<property name="javax.persistence.jdbc.user" value="NGPCAPA" />
+				value="" />
+			<property name="javax.persistence.jdbc.user" value="" />
 			<property name="javax.persistence.jdbc.password" value="welcome1" />
 			<property name="eclipselink.logging.level" value="FINEST" />
 			<property name="eclipselink.logging.level.sql" value="FINEST" />
