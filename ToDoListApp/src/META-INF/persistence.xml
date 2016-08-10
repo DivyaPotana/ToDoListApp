@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+	<persistence-unit name="todolist">
+
+		<class>com.todolistapp.entity.ToDoList</class>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:oracle:thin:@//10.180.84.35:1521/NGPDEV" />
+			<property name="javax.persistence.jdbc.user" value="NGPCAPA" />
+			<property name="javax.persistence.jdbc.password" value="welcome1" />
+			<property name="eclipselink.logging.level" value="FINEST" />
+			<property name="eclipselink.logging.level.sql" value="FINEST" />
+			<property name="eclipselink.logging.parameters" value="true" />
+			<property name="eclipselink.logging.exceptions" value="true" />
+		</properties>
+
+	</persistence-unit>
+</persistence>
+
+<!-- <persistence-unit name="todolist" transaction-type="JTA"> <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> 
+	<jta-data-source>jdbc/FCBDataSource</jta-data-source> -->
